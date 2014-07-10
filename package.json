@@ -1,0 +1,15 @@
+{
+  "name": "d3-test",
+  "description": "An HTML/JS/CSS app",
+  "version": "0.0.1",
+  "private": true,
+  "author": "John Doe",
+  "devDependencies": {
+    "lineman": "^0.33.4",
+    "lineman-bower": "0.0.3"
+  },
+  "scripts": {
+    "start": "lineman run",
+    "test": "lineman spec-ci"
+  }
+}

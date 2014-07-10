@@ -1,0 +1,45 @@
+.hello {
+  background-color: #efefef;
+  border: 1px solid #dedede;
+}
+
+div.bar {
+    display: inline-block;
+    width: 20px;
+    height: 75px;   /* We'll override this later */
+    background-color: teal;
+    margin-right: 2px;
+}
+
+circle.pumpkin {
+    fill: yellow;
+    stroke: orange;
+    stroke-width: 5;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+svg text {
+        pointer-events: none;
+}
+
+rect {
+        -moz-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        -webkit-transition: all 0.2s;
+        transition: all 0.2s;
+}
+
+rect:hover {
+	fill: orange;
+}

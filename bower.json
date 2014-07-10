@@ -1,0 +1,7 @@
+{
+  "name": "d3-test",
+  "version": "0.0.1",
+  "dependencies": {
+    "d3": "~3.4.0"
+  }
+}
